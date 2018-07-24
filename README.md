@@ -1,6 +1,14 @@
 JSON-Patch
 ===============
 
+#Fork motivation
+Due to obscure build problems with rollup, I forked the directory in order to publish an esm 
+version of the library.
+
+Usage : `npm run build-es6`
+
+Note : to run the test, use the usual build : `npm run build` 
+
 > A leaner and meaner implementation of JSON-Patch. Small footprint. High performance.
 
 [![Build Status](https://travis-ci.org/Starcounter-Jack/JSON-Patch.svg?branch=master)](https://travis-ci.org/Starcounter-Jack/JSON-Patch)

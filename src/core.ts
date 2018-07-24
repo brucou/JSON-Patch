@@ -3,10 +3,11 @@
  * (c) 2017 Joachim Wester
  * MIT license
  */
-declare var require: any;
+// declare var require: any;
+import {deepEqual as _equals} from './deep-equal'
 
 const equalsOptions = { strict: true };
-const _equals = require('deep-equal');
+//const _equals = require('deep-equal');
 const areEquals = (a: any, b: any): boolean => {
   return _equals(a, b, equalsOptions)
 }
@@ -144,7 +145,7 @@ const objOps = {
 var arrOps = {
   add: function (arr, i, document) {
     if(isInteger(i)) {
-      arr.splice(i, 0, this.value); 
+      arr.splice(i, 0, this.value);
     } else { // array props
       arr[i] = this.value;
     }

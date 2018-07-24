@@ -22,6 +22,7 @@
     "url": "http://www.starcounter.com/"
   },
   "license": "MIT",
+  "module": "lib/duplex.js",
   "main": "lib/duplex.js",
   "typings": "lib/duplex.d.ts",
   "engines": {
@@ -42,6 +43,7 @@
     "tsc": "tsc",
     "version": "tsc && webpack && git add -A",
     "build": "tsc && webpack",
+    "build-es6": "tsc -p tsconfig-es6.json && webpack",
     "tsc-watch": "tsc -w",
     "test": "npm run tsc && npm run test-core && npm run test-duplex",
     "test-duplex": "jasmine DUPLEX=yes JASMINE_CONFIG_PATH=test/jasmine.json",
