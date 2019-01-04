@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "module": "lib/duplex.js",
-  "main": "lib/duplex.js",
+  "main": "dist/fast-json-patch.js",
   "typings": "lib/duplex.d.ts",
   "engines": {
     "node": ">= 0.4.0"
