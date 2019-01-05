@@ -22,8 +22,8 @@
     "url": "http://www.starcounter.com/"
   },
   "license": "MIT",
-  "module": "src/duplex.js",
-  "main": "dist/fast-json-patch.js",
+  "module": "lib/fast-json-patch.js",
+  "main": "lib/duplex.js",
   "typings": "lib/duplex.d.ts",
   "engines": {
     "node": ">= 0.4.0"
